@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script "text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+   
+    <title>Google Pixel 7 - MobileGallery</title>
+    <meta name="description" content="Best mobile phone store in Mississauga. We offer best discount offers on mobile phones ake Apple, Samsung, Xaomi" />
+    <meta name="keywords" content="apple, samsung, mobile phones, best mobile store in mississauga" />
+    <link rel="icon" href="img/icon.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="includes/main.css">
+    <script src="shoppingcart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div><h1><a href='./index.html'><img src='img/logo2.png'/></a></h1></div>
+        <nav>
+            <ul class="ul, li">
+              <li> <a href="./index.html">Home</a></li>
+              <li> <a href="./iphone-14-pro-max.html">iPhone 14 Pro Max</a></li>
+              <li> <a href="./samsung_s22_ultra.html">Samsung S22 Ultra</a></li>
+              <li> <a href="./contact_us.html">Contact Us</a></li>
+              <li> <a href="./about_us.html">About Us</a></li>
+              <li id="shoppingCartLink"></li>
+
+            </ul>
+  
+          </nav>
+    </header>
+
+    <div class="mycontainer">
+        <article>
+          <br>
+            <h2 id="top_heading">Google Pixel 7</h2><br>
+            <!----------------------------------------------------------------------->
+
+    <!--Adding slidding-->
+    <div id="slider" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/pixel1.png" width="500" height="600">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pixel2.png"  width="500" height="600">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pixel3.png"  width="500" height="600">
+        </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#slider" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slider" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  <!--End sliding-->  
+
+  <!-------------------------------------------------><br>
+              <br>
+            <div class="table_container">
+                <table id="specs">
+                    <tr><th>Device Name</th><td>Google Pixel 7</td></tr>
+                    <tr><th>Release Date</th><td>13 Oct 2022</td></tr>
+                    <tr><th>Display</th><td> 6.3 Inches</td></tr>
+                    <tr><th>Camera</th><td>50 MP</td></tr>
+                    <tr><th>Hardware</th><td>TENSOR G2</td></tr>
+                    <tr><th>Storage</th><td>128 GB+</td></tr>
+                    <tr><th>Battrey</th><td>4355 mAh</td></tr>
+                    <tr><th>OS</th><td>Android 13</td></tr>
+                    <tr><th>Price</th><td>$649</td></tr>
+                </table>
+            </div>
+ <br>
+            <div class='buy_now_btn'>
+              <select id="user-qty" name="user_qty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+
+              <button class="addtocart" onclick='addToCart({"name": "Google Pixel 7", "grossPrice": 649, "qty":document.getElementById("user-qty").value})'>
+                <div class="pretext"><i class="fa fa-cart-plus"></i> ADD TO CART</div>
+                <div class="pretext done"><div class="posttext"><i class="fa fa-check"></i> ADDED</div></div>
+              </button>
+            </div>
+            <br><br>
+            <h2 class="device_heading">Device Description</h2>
+            <br>
+            <p>The Google Pixel 7. The successor to the Pixel 6. Now with new exciting features.</p>
+            <ul class="description">
+            <li>The smartphone features the Google Tenosr G2 chip which is a big improvement from the Tensor G1.</li>
+            <li>The chipset is same as the Pixel 7 pro. The smartphone has gorilla glass on both sides.</li>
+            <li> At the back it has gorilla glass victus which ennsures that the phone could handle some drops. </li>
+            <li>The display is 6.3 inch OLED with 90 Hz refresh rate, has HDR 10+ and deep blacks.</li>
+            <li> The device has a in display fingerprint sensor which is best when it comes to security.</li>
+            <li> There are two storage options 128 or 256GB which is non expandable. The main camera is 50MP with a 12MP ultrawide camera.</li>
+            <li>  The rear camera is also capable of recording 4k videos with excellent dynamic range.</li>
+          </ul>
+        </article>
+    </div>
+    <script src="Main.js"> </script>
+    <script>
+        // Initiate zoom effect:
+        imageZoom("myimage", "myresult");
+        </script>
+
+<br><br><br>
+ 
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #1c2331"
+            >
+      <!-- Section: Social media -->
+      <section
+               class="d-flex justify-content-between p-4"
+               style="background-color: #6351ce"
+               >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+  
+        <!-- Right -->
+        <div>
+        
+            <i class="fa fa-facebook-official me-4" aria-hidden="true"></i>
+            <i class="fa fa-twitter me-4"></i>
+            <i class="fa fa-google me-4"></i>
+            <i class="fa fa-instagram me-4"></i>
+            <i class="fa fa-linkedin me-4"></i>
+            <i class="fa fa-github me-4"></i>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">MOBILE GALLERY</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                Best mobile store in town, with exciting offers on all 
+                brands.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="./iphone-14-pro-max.html" class="text-white">iPhone 14 Pro Max</a>
+              </p>
+              <p>
+                <a href="./iphone-11.html" class="text-white">Samsung S22 Ultra</a>
+              </p>
+              <p>
+                <a href="./pixel-7.html" class="text-white">Google pixel-7</a>
+              </p>
+              <p>
+                <a href="./m1-12s.html" class="text-white">Xaomi 12 S Ultra</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="./about_us.html" class="text-white">About us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+
+              <p>
+                <i class="fa fa-home mr-3"></i> Mississauga,Ontario 10012, US</p>
+              <p><i class="fa fa-envelope mr-3"></i> mobilegallerymississauga@gmail.com</p>
+              <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="./index.html"
+           >MGmississuaga.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  
+  </div></body>
+</html>
